@@ -17,14 +17,29 @@ const BaseLayout = () => {
                 Available Cats
               </Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/contact-us">
+                Contact Us
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/about-us">
+                About Us
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/donate">
+                Donate
+              </Link>
+            </li>
           </ul>
         </nav>
       </header>
       <main id="content">
         <Outlet />
       </main>
-      <footer className="bg-light">
-        <p>© Copyright 2024</p>
+      <footer className="bg-light text-center mt-4">
+        <p>© Copyright 2024 - Purrfect Adoption</p>
       </footer>
     </div>
   );
