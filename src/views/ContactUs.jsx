@@ -5,7 +5,8 @@ export default function ContactUs() {
       <section className="contact-us">
         <h2 className="text-left">Contact Us</h2>
         <p className="text-left">
-          We would love to hear from you! Whether you have questions, feedback, or inquiries, please reach out using the form below.
+        Your feedback would be much appreciated!
+        Please use the form below to contact us with any queries, comments, or questions.
         </p>
         <form className="contact-form" style={{ maxWidth: '500px' }}>
           <div className="mb-3">
